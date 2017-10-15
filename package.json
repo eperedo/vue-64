@@ -75,5 +75,10 @@
 		"> 1%",
 		"last 2 versions",
 		"not ie <= 11"
-	]
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eperedo/vue-64.git"
+	},
+	"license": "MIT"
 }
