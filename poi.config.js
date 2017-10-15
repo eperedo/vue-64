@@ -6,6 +6,5 @@ module.exports = {
 	},
 	sourceMap: false,
 	html: false,
-	format: 'umd',
-	moduleName: 'VueSixFour',
+	format: 'cjs'
 };
