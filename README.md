@@ -1,6 +1,8 @@
 # vue-six-four
 
-> vue 2.x.x component which generate base64 from a file
+> vue 2.x.x component which generate base64 from a file [Demo](https://codesandbox.io/s/94nzlkwn1o)
+
+![Demo vue-64](https://user-images.githubusercontent.com/461124/31588306-7eb461fc-b1b5-11e7-96ab-27fe12905330.png)
 
 ### Install
 

@@ -1,6 +1,6 @@
 {
 	"name": "vue-six-four",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "vue component which generate base64 from a file",
 	"author": "Eduardo P. Rivero",
 	"main": "dist/vue-six-four.min.js",
