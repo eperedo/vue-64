@@ -6,7 +6,9 @@
 
 ### Install
 
+```bash
 npm install vue-six-four --save
+```
 
 ### Usage
 
