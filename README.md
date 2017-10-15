@@ -46,6 +46,17 @@ In this event you can get the information of the whole file.
 }
 ```
 
+### Multiple Files
+
+By default the component only allows to select one file, but you can change that using the allow-multiple
+prop.
+
+```html
+<vue-six-four v-on:vue-six-four="getFileInfo" v-bind:allow-multiple="true">
+```
+
+The only difference is the event now return an array instead an object.
+
 ## Build Setup
 
 ``` bash
