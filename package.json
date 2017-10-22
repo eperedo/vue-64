@@ -1,6 +1,6 @@
 {
 	"name": "vue-six-four",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "vue component which generate base64 from a file",
 	"author": "Eduardo P. Rivero",
 	"main": "dist/vue-six-four.min.js",
@@ -8,7 +8,9 @@
 		"dist"
 	],
 	"scripts": {
-		"component": "poi build src/components/VueSixFour.vue",
+		"component": "npm run component-cjs && npm run component-umd",
+		"component-cjs": "poi build src/components/VueSixFour.vue",
+		"component-umd": "poi build --config poi-umd.js src/components/VueSixFour.vue",
 		"dev": "node build/dev-server.js",
 		"start": "node build/dev-server.js",
 		"build": "node build/build.js",
