@@ -21,7 +21,7 @@ import VueSixFour from 'vue-six-four';
 or include the umd version in a script tag
 
 ```html
-<script src="https://unpkg.com/vue-six-four/dist/vue-six-four.umd.min.js"></script>
+<script src="https://unpkg.com/vue-six-four/dist/VueSixFour.umd.min.js"></script>
 ```
 
 ```js
@@ -30,7 +30,7 @@ or include the umd version in a script tag
   components: {
     VueSixFour,
     // if you are using the umd version
-    // VueSixFour: window.VueSixFour.default,
+    // VueSixFour: window.VueSixFour,
   },
   methods: {
     getFileInfo(file) {
@@ -38,7 +38,6 @@ or include the umd version in a script tag
     },
   },
 }
-
 ```
 
 ```html
@@ -49,12 +48,12 @@ In this event you can get the information of the whole file.
 
 ```json
 {
-  "lastModified": 1491695457000,
-  "lastModifiedDate" : "Sat Apr 08 2017 18:50:57 GMT-0500 (-05)",
-  "name" : "fileName.jpg",
-  "size" : "14361",
-  "type" : "image/jpeg",
-  "sixFour": "really long base64 here"
+	"lastModified": 1491695457000,
+	"lastModifiedDate": "Sat Apr 08 2017 18:50:57 GMT-0500 (-05)",
+	"name": "fileName.jpg",
+	"size": "14361",
+	"type": "image/jpeg",
+	"sixFour": "really long base64 here"
 }
 ```
 
@@ -71,11 +70,10 @@ The only difference is the event now return an array instead an object.
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
 # build component using poi
 npm run component
-
 ```
