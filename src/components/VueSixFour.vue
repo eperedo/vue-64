@@ -4,7 +4,6 @@
 </template>
 
 <script>
-
 function data() {
 	return {
 		multipleFiles: [],
@@ -22,7 +21,10 @@ function readFile(e) {
 			const result = Object.assign(file, { sixFour: reader.result });
 			this.multipleFiles.push(result);
 			if (totalFiles === this.multipleFiles.length) {
-				this.$emit('vue-six-four', this.allowMultiple ? this.multipleFiles : this.multipleFiles[0]);
+				this.$emit(
+					'vue-six-four',
+					this.allowMultiple ? this.multipleFiles : this.multipleFiles[0],
+				);
 				this.multipleFiles = [];
 			}
 			reader = null;
