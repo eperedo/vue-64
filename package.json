@@ -1,5 +1,5 @@
 {
-	"name": "vue64",
+	"name": "vue-six-four",
 	"version": "2.0.0",
 	"main": "dist/VueSixFour.common.js",
 	"scripts": {
